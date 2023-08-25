@@ -1,3 +1,5 @@
+Your site is live at https://poriadinsky.github.io/ajs-2/
+
 ![CI](https://github.com/Poriadinsky/ajs-1/actions/workflows/web.yml/badge.svg)
 
 
