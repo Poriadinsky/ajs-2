@@ -1,9 +1,7 @@
-import Board from './Board';
-import Goblin from './Goblin';
-import GamePlay from './GamePlay';
+import gameconstructor from './getplayfield';
+import getrandomhole from './gameplay';
+import getgameclick from './gameclick';
 
-const board = new Board();
-const char = new Goblin();
-const gameplay = new GamePlay(board, char);
-
-gameplay.init();
+gameconstructor();
+getrandomhole();
+getgameclick();
